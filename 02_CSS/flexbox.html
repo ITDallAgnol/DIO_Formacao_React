@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<style>
+    .flex {
+        border: 2px solid black;
+        display: flex;
+        gap: 5px;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item {
+        width: 80px;
+        height: 80px;
+        background-color: blueviolet;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+</style>
+<body>
+    <h1>Flexbox</h1>
+
+    <p><strong>O eixo principal (Main Axis)</strong></p>
+    <p>Main axis - flex direction: row --> (em linha)</p>
+    <p>Main axis - flex direction: column --> (em coluna)</p>
+
+    <hr>
+    <b>Exemplo:</b>
+
+    <div class="flex">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+    </div>
+</body>
+</html>
