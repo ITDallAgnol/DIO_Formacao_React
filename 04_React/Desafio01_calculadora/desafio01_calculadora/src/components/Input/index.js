@@ -1,9 +1,9 @@
-import React from 'react'
+import { InputContainer } from './styles'
 
 export default function Input() {
   return (
-    <div>
-      Entrar
-    </div>
+    <InputContainer>
+      <Input />
+    </InputContainer>
   )
 }
