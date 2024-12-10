@@ -1,4 +1,4 @@
-<img src="img/calculadora_react.png" width="500px" alt="Calculadora React">
+<img src="./src/img/calculadora_react.png" width="500px" alt="Calculadora React">
 
 <hr>
 
