@@ -1,9 +1,11 @@
-import React from 'react'
+import {ButtonContainer} from './styles'
 
-export default function Button() {
+const Button = ({label, onClick}) => {
   return (
-    <div>
-      Entrar
-    </div>
+    <ButtonContainer onClick={onClick}>
+      {label}
+    </ButtonContainer>
   )
 }
+
+export default Button;
